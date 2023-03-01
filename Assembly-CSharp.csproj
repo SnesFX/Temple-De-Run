@@ -209,6 +209,7 @@
      <Compile Include="Assets\Scripts\Assembly-CSharp\VCGUI.cs" />
      <Compile Include="Assets\Scripts\Assembly-CSharp\VCItem.cs" />
      <Compile Include="Assets\Scripts\Assembly-CSharp\Warble.cs" />
+     <Compile Include="Assets\Scripts\Discord-RPC\DiscordRPC.cs" />
      <None Include="Assets\Resources\shaders\Unlit - Transparent Colored NOFOG.shader" />
      <None Include="Assets\Resources\Strings.txt" />
      <None Include="Assets\Resources\shaders\Unlit - Transparent Colored.shader" />

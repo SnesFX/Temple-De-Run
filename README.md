@@ -1,7 +1,10 @@
 # Temple-De-Run
  
- 
- * A decompilation of Temple Run v1.0.0
+  * A decompilation of Temple Run v1.0.0
+
+# Enhancements
+
+* Discord RPC - PC only tho lmao
 
  # Requirements
 
