@@ -1,0 +1,686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1775666778842211}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1775666778842211
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4977077314121812}
+  - 114: {fileID: 114646788811983266}
+  m_Layer: 0
+  m_Name: Game Interface Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4977077314121812
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1775666778842211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1504.1478, y: -568.6665, z: 1071.8615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114646788811983266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1775666778842211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 467f033525458d347859b9f2035e28dd, type: 2}
+  sprites:
+  - name: arrowDown.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 618
+      width: 94
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 618
+      width: 94
+      height: 300
+    paddingLeft: 0.60638297
+    paddingRight: 0.5638298
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrowLeft.png
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 110
+      width: 292
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 110
+      width: 292
+      height: 90
+    paddingLeft: 0.0102739725
+    paddingRight: 0.017123288
+    paddingTop: 0.65555555
+    paddingBottom: 0.6111111
+  - name: arrowRight.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 392
+      width: 292
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 392
+      width: 292
+      height: 90
+    paddingLeft: 0.0102739725
+    paddingRight: 0.017123288
+    paddingTop: 0.65555555
+    paddingBottom: 0.6111111
+  - name: arrowUp.png
+    outer:
+      serializedVersion: 2
+      x: 98
+      y: 618
+      width: 94
+      height: 298
+    inner:
+      serializedVersion: 2
+      x: 98
+      y: 618
+      width: 94
+      height: 298
+    paddingLeft: 0.60638297
+    paddingRight: 0.5638298
+    paddingTop: 0.0067114094
+    paddingBottom: 0
+  - name: black.png
+    outer:
+      serializedVersion: 2
+      x: 460
+      y: 396
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 460
+      y: 396
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bonus100.png
+    outer:
+      serializedVersion: 2
+      x: 460
+      y: 408
+      width: 224
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 460
+      y: 408
+      width: 224
+      height: 90
+    paddingLeft: 0.35267857
+    paddingRight: 0.34375
+    paddingTop: 0.15555556
+    paddingBottom: 0.17777778
+  - name: bonus1000.png
+    outer:
+      serializedVersion: 2
+      x: 582
+      y: 2
+      width: 356
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 582
+      y: 2
+      width: 356
+      height: 106
+    paddingLeft: 0.033707865
+    paddingRight: 0.033707865
+    paddingTop: 0.13207547
+    paddingBottom: 0
+  - name: bonus250.png
+    outer:
+      serializedVersion: 2
+      x: 438
+      y: 500
+      width: 216
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 438
+      y: 500
+      width: 216
+      height: 90
+    paddingLeft: 0.37962964
+    paddingRight: 0.37962964
+    paddingTop: 0.15555556
+    paddingBottom: 0.17777778
+  - name: bonus500.png
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 256
+      width: 244
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 256
+      width: 244
+      height: 90
+    paddingLeft: 0.27868852
+    paddingRight: 0.27868852
+    paddingTop: 0.15555556
+    paddingBottom: 0.17777778
+  - name: coin.png
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 318
+      width: 55
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 318
+      width: 55
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinBlue.png
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 500
+      width: 55
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 500
+      width: 55
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinRed.png
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 2
+      width: 55
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 2
+      width: 55
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: headstartButton.png
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 188
+      width: 220
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 188
+      width: 220
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.02631579
+    paddingBottom: 0.02631579
+  - name: headstartMegaButton.png
+    outer:
+      serializedVersion: 2
+      x: 758
+      y: 110
+      width: 220
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 758
+      y: 110
+      width: 220
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.02631579
+    paddingBottom: 0.02631579
+  - name: idol.png
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 606
+      width: 116
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 606
+      width: 116
+      height: 190
+    paddingLeft: 0.03448276
+    paddingRight: 0
+    paddingTop: 0.05263158
+    paddingBottom: 0
+  - name: jungleA.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 578
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 578
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0.32871974
+    paddingTop: 0
+    paddingBottom: 1.6415094
+  - name: jungleB.png
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 606
+      width: 90
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 606
+      width: 90
+      height: 210
+    paddingLeft: 6.6222224
+    paddingRight: 0.9111111
+    paddingTop: 0
+    paddingBottom: 0.33333334
+  - name: jungleC.png
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 818
+      width: 110
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 818
+      width: 110
+      height: 64
+    paddingLeft: 5.981818
+    paddingRight: 0
+    paddingTop: 3.265625
+    paddingBottom: 0.109375
+  - name: messageBoard.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 110
+      width: 296
+      height: 280
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 110
+      width: 296
+      height: 280
+    paddingLeft: 0.0033783785
+    paddingRight: 0.010135135
+    paddingTop: 0
+    paddingBottom: 0
+  - name: messageHighScore.png
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 202
+      width: 292
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 202
+      width: 292
+      height: 52
+    paddingLeft: 0.01369863
+    paddingRight: 0.01369863
+    paddingTop: 0.057692308
+    paddingBottom: 0.09615385
+  - name: messageNiceJob.png
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 266
+      width: 238
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 266
+      width: 238
+      height: 50
+    paddingLeft: 0.13025211
+    paddingRight: 0.13025211
+    paddingTop: 0.1
+    paddingBottom: 0.1
+  - name: messageTryAgain.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 552
+      width: 270
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 552
+      width: 270
+      height: 52
+    paddingLeft: 0.055555556
+    paddingRight: 0.055555556
+    paddingTop: 0.057692308
+    paddingBottom: 0.09615385
+  - name: pause.png
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 318
+      width: 38
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 318
+      width: 38
+      height: 42
+    paddingLeft: 0.31578946
+    paddingRight: 0.2631579
+    paddingTop: 0.21428572
+    paddingBottom: 0.21428572
+  - name: play.png
+    outer:
+      serializedVersion: 2
+      x: 950
+      y: 266
+      width: 34
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 950
+      y: 266
+      width: 34
+      height: 40
+    paddingLeft: 0.38235295
+    paddingRight: 0.38235295
+    paddingTop: 0.25
+    paddingBottom: 0.25
+  - name: scoreboard.png
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 798
+      width: 98
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 798
+      width: 98
+      height: 136
+    paddingLeft: 1.8571428
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.47058824
+  - name: scoreboardPanelAngelWings.png
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 884
+      width: 126
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 884
+      width: 126
+      height: 46
+    paddingLeft: 1.2222222
+    paddingRight: 0
+    paddingTop: 2.6086957
+    paddingBottom: 0.73913044
+  - name: scoreboardPanelCoins.png
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 348
+      width: 258
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 348
+      width: 258
+      height: 58
+    paddingLeft: 0.08527132
+    paddingRight: 0
+    paddingTop: 1.3103448
+    paddingBottom: 1.137931
+  - name: scoreboardPanelScore.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 484
+      width: 270
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 484
+      width: 270
+      height: 66
+    paddingLeft: 0.037037037
+    paddingRight: 0
+    paddingTop: 0.33333334
+    paddingBottom: 1.6969697
+  - name: sparkleParticle.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 920
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 920
+      width: 90
+      height: 90
+    paddingLeft: 0.06666667
+    paddingRight: 0.044444446
+    paddingTop: 0.07777778
+    paddingBottom: 0.033333335
+  - name: totem.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 110
+      width: 162
+      height: 506
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 110
+      width: 162
+      height: 506
+    paddingLeft: 0
+    paddingRight: 0.60493827
+    paddingTop: 0
+    paddingBottom: 0.011857707
+  - name: totemEmblem1.png
+    outer:
+      serializedVersion: 2
+      x: 686
+      y: 408
+      width: 40
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 686
+      y: 408
+      width: 40
+      height: 68
+    paddingLeft: 0
+    paddingRight: 5.5
+    paddingTop: 0.5882353
+    paddingBottom: 5.9411764
+  - name: totemEmblem2.png
+    outer:
+      serializedVersion: 2
+      x: 839
+      y: 318
+      width: 50
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 839
+      y: 318
+      width: 50
+      height: 48
+    paddingLeft: 0.36
+    paddingRight: 3.84
+    paddingTop: 0.8333333
+    paddingBottom: 8.833333
+  - name: totemEmblem3.png
+    outer:
+      serializedVersion: 2
+      x: 781
+      y: 318
+      width: 56
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 781
+      y: 318
+      width: 56
+      height: 48
+    paddingLeft: 0.17857143
+    paddingRight: 3.4642856
+    paddingTop: 1.375
+    paddingBottom: 8.291667
+  - name: totemEmblem4.png
+    outer:
+      serializedVersion: 2
+      x: 656
+      y: 563
+      width: 30
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 656
+      y: 563
+      width: 30
+      height: 36
+    paddingLeft: 0.4
+    paddingRight: 7.266667
+    paddingTop: 1.6111112
+    paddingBottom: 11.611111
+  - name: totemProgress.png
+    outer:
+      serializedVersion: 2
+      x: 194
+      y: 606
+      width: 26
+      height: 352
+    inner:
+      serializedVersion: 2
+      x: 194
+      y: 606
+      width: 26
+      height: 352
+    paddingLeft: 0
+    paddingRight: 9
+    paddingTop: 0.30397728
+    paddingBottom: 0.15056819
+  - name: totemProgressCap.png
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 65
+      width: 44
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 65
+      width: 44
+      height: 38
+    paddingLeft: 0
+    paddingRight: 4.909091
+    paddingTop: 2.6578948
+    paddingBottom: 9.815789
+  - name: white.png
+    outer:
+      serializedVersion: 2
+      x: 460
+      y: 392
+      width: 2
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 460
+      y: 392
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

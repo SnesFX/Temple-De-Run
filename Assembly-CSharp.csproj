@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{83C424BD-4055-EE6B-C8F4-2817C7F0A1D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_2;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActiveAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlertView.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AngelWingIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AngelWings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationOrTween\Direction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationOrTween\DisableCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationOrTween\EnableCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationOrTween\Trigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AwardedObjectives.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BasePanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BetterList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BillboardSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BMFont.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BMGlyph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BonusItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BoostEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ByteReader.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CommonPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DirectSwipeDetector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DisplayMetrics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DynamicElement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EndGameUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ESCAsClick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ESCBack.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FaceCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FTPSGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameGUITotem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Geometry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GuiHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GUIParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HeadStartButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IAPShim.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Interpolate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Intersection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LanguageSelection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Line.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Localization.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MagnetEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MessageBoard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MovingObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NGUIDebug.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NGUIMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NGUITools.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectiveItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectivesGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OffsetOnWidth.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OptionsGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathElement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PCInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlaybackWindowSizer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Polygon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PrefabLabData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PsuedoRunner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RecordManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Region2D.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RendererExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedBonusItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedCharacterPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedCommonPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedGame.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedGameCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedGameController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedMovingObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedPathElement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SavedPathElementStatics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SceneryElement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SceneryManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpringPanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpringPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StatsGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StoreGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StoreItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StoreItemsAvaialble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Strings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TouchInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TweenColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TweenPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TweenRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TweenScale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TweenTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIAnchor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIAtlas.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonKeys.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonMessage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonMessage2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonOffset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonRotation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonScale.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIButtonTween.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UICamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UICheckbox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIDragCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIDragObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIDrawCall.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIEventListener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIFilledSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIFont.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIForwardEvents.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIGeometry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIGrid.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIImageButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIInputSaved.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UILabel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UILocalize.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UINode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIPanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIPersistCheckBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIPersistSlider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIPlayFX.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIPopupList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIResetOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIResetYPos.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIRoot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISavedOption.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISlicedSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISlider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISliderColors.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISpriteFrameAnimation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIStack.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIStackSpacing.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UISwipeDetector.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UITable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UITextList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UITexture.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UITiledSprite.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UITweener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UIWidget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UpdateManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VCGUI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VCItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Warble.cs" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored NOFOG.shader" />
+     <None Include="Assets\Resources\Strings.txt" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Cheboygan_Arty2x.txt" />
+     <None Include="Assets\Resources\shaders\premult alpha\Unlit - Transparent Colored PMA.shader" />
+     <None Include="Assets\Shader\Shader.shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored (Premult Alpha).shader" />
+     <None Include="Assets\Shader\TempleRunShader.shader" />
+     <None Include="Assets\Resources\shaders\premult alpha\Unlit - Transparent Colored PMA (AlphaClip) .shader" />
+     <None Include="Assets\Resources\Arial_White2x.txt" />
+     <None Include="Assets\Resources\ImageData.txt" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Shader\TempleRunCharacterShader.shader" />
+     <None Include="Assets\Resources\Cheboygan_White2x.txt" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent (Premult Alpha).shader" />
+     <None Include="Assets\Resources\shaders\depth.shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Resources\shaders\Unlit - Transparent Colored (SoftClip).shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Users/james/Downloads/Unity Vita SDK/Unity 2017/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A27B8C4F-DAA8-D4A2-CEF5-A8B305D0596E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

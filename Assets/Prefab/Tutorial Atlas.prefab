@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1126603839739332}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1126603839739332
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4306483790966019}
+  - 114: {fileID: 114149055305472864}
+  m_Layer: 0
+  m_Name: Tutorial Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4306483790966019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126603839739332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1932.9921, y: 178.22794, z: 84.3078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114149055305472864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126603839739332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: de1c3112ebdf2fb4590c2ea50ef6b21e, type: 2}
+  sprites:
+  - name: instructionsFinished
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 2
+      width: 370
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 2
+      width: 370
+      height: 250
+    paddingLeft: 0.035135135
+    paddingRight: 0.045945946
+    paddingTop: 0.424
+    paddingBottom: 0.496
+  - name: instructionsJump
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 372
+      width: 290
+      height: 416
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 372
+      width: 290
+      height: 416
+    paddingLeft: 0.6
+    paddingRight: 0.6068966
+    paddingTop: 0.072115384
+    paddingBottom: 0.08173077
+  - name: instructionsMeter
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 254
+      width: 362
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 254
+      width: 362
+      height: 222
+    paddingLeft: 0.37845305
+    paddingRight: 0.38950276
+    paddingTop: 0.5135135
+    paddingBottom: 0.6486486
+  - name: instructionsSlide
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 560
+      width: 290
+      height: 404
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 560
+      width: 290
+      height: 404
+    paddingLeft: 0.6034483
+    paddingRight: 0.6034483
+    paddingTop: 0.037128713
+    paddingBottom: 0.1509901
+  - name: instructionsTilt
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 262
+      width: 362
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 262
+      width: 362
+      height: 108
+    paddingLeft: 0.049723756
+    paddingRight: 0.055248618
+    paddingTop: 2.648148
+    paddingBottom: 0.7962963
+  - name: instructionsTurn
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 460
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 460
+      height: 258
+    paddingLeft: 0.19347826
+    paddingRight: 0.19782609
+    paddingTop: 0.41472867
+    paddingBottom: 0.44573644
+  - name: tilt1
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 160
+      width: 130
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 160
+      width: 130
+      height: 158
+    paddingLeft: 0.7307692
+    paddingRight: 0.7307692
+    paddingTop: 0.7721519
+    paddingBottom: 1.2658228
+  - name: tilt10
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 320
+      width: 120
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 320
+      width: 120
+      height: 154
+    paddingLeft: 0.8333333
+    paddingRight: 0.8333333
+    paddingTop: 0.8051948
+    paddingBottom: 1.3116883
+  - name: tilt2
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 790
+      width: 112
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 790
+      width: 112
+      height: 152
+    paddingLeft: 0.9285714
+    paddingRight: 0.9285714
+    paddingTop: 0.82236844
+    paddingBottom: 1.3355263
+  - name: tilt3
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 262
+      width: 94
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 262
+      width: 94
+      height: 142
+    paddingLeft: 1.2021277
+    paddingRight: 1.2021277
+    paddingTop: 0.9084507
+    paddingBottom: 1.471831
+  - name: tilt4
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 406
+      width: 114
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 406
+      width: 114
+      height: 152
+    paddingLeft: 0.9035088
+    paddingRight: 0.9035088
+    paddingTop: 0.81578946
+    paddingBottom: 1.3421053
+  - name: tilt5
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 2
+      width: 132
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 2
+      width: 132
+      height: 156
+    paddingLeft: 0.7121212
+    paddingRight: 0.7121212
+    paddingTop: 0.78846157
+    paddingBottom: 1.2884616
+  - name: tilt6
+    outer:
+      serializedVersion: 2
+      x: 828
+      y: 476
+      width: 118
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 828
+      y: 476
+      width: 118
+      height: 154
+    paddingLeft: 0.86440676
+    paddingRight: 0.84745765
+    paddingTop: 0.8051948
+    paddingBottom: 1.3116883
+  - name: tilt7
+    outer:
+      serializedVersion: 2
+      x: 586
+      y: 478
+      width: 106
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 586
+      y: 478
+      width: 106
+      height: 148
+    paddingLeft: 1.018868
+    paddingRight: 1
+    paddingTop: 0.8581081
+    paddingBottom: 1.3851352
+  - name: tilt8
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 262
+      width: 94
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 262
+      width: 94
+      height: 142
+    paddingLeft: 1.2021277
+    paddingRight: 1.2021277
+    paddingTop: 0.9084507
+    paddingBottom: 1.471831
+  - name: tilt9
+    outer:
+      serializedVersion: 2
+      x: 116
+      y: 790
+      width: 106
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 116
+      y: 790
+      width: 106
+      height: 148
+    paddingLeft: 1.018868
+    paddingRight: 1
+    paddingTop: 0.8581081
+    paddingBottom: 1.3851352
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

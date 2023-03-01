@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1154920382889395}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1154920382889395
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4587998566866233}
+  - 114: {fileID: 114635114382826513}
+  m_Layer: 0
+  m_Name: Main Menu Atalas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4587998566866233
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154920382889395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114635114382826513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154920382889395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 97ae472ad42691946a314dbc8a018d7a, type: 2}
+  sprites:
+  - name: freeCoins
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 146
+      width: 288
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 146
+      width: 288
+      height: 81
+    paddingLeft: 0.0034722222
+    paddingRight: 0.010416667
+    paddingTop: 0.012345679
+    paddingBottom: 0.037037037
+  - name: mainMenuAchievements@2x.png
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 2
+      width: 356
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 2
+      width: 356
+      height: 60
+    paddingLeft: 0.0056179776
+    paddingRight: 0.0056179776
+    paddingTop: 0.05
+    paddingBottom: 0.083333336
+  - name: mainMenuIdol@2x.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 388
+      width: 240
+      height: 272
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 388
+      width: 240
+      height: 272
+    paddingLeft: 0.20416667
+    paddingRight: 0.2125
+    paddingTop: 0
+    paddingBottom: 0.029411765
+  - name: mainMenuLeaderboards@2x.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 662
+      width: 222
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 662
+      width: 222
+      height: 70
+    paddingLeft: 0.027027028
+    paddingRight: 0.054054055
+    paddingTop: 0.057142857
+    paddingBottom: 0.08571429
+  - name: mainMenuLogo@2x.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 612
+      height: 336
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 612
+      height: 336
+    paddingLeft: 0.022875817
+    paddingRight: 0.022875817
+    paddingTop: 0.071428575
+    paddingBottom: 0
+  - name: mainMenuMoreGames@2x.png
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 64
+      width: 296
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 64
+      width: 296
+      height: 80
+    paddingLeft: 0.0033783785
+    paddingRight: 0.010135135
+    paddingTop: 0.0625
+    paddingBottom: 0.0875
+  - name: mainMenuOptions@2x.png
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 310
+      width: 258
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 310
+      width: 258
+      height: 76
+    paddingLeft: 0.007751938
+    paddingRight: 0.046511628
+    paddingTop: 0.065789476
+    paddingBottom: 0.14473684
+  - name: mainMenuStore@2x.png
+    outer:
+      serializedVersion: 2
+      x: 244
+      y: 340
+      width: 230
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 244
+      y: 340
+      width: 230
+      height: 70
+    paddingLeft: 0.004347826
+    paddingRight: 0.039130434
+    paddingTop: 0.057142857
+    paddingBottom: 0.08571429
+  - name: moreCoins
+    outer:
+      serializedVersion: 2
+      x: 616
+      y: 229
+      width: 282
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 616
+      y: 229
+      width: 282
+      height: 79
+    paddingLeft: 0.0035460992
+    paddingRight: 0.010638298
+    paddingTop: 0.012658228
+    paddingBottom: 0.03797468
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

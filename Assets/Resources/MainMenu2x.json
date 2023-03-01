@@ -1,0 +1,84 @@
+{"frames": {
+
+"freeCoins.png":
+{
+	"frame": {"x":616,"y":146,"w":288,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":288,"h":81},
+	"sourceSize": {"w":292,"h":85}
+},
+"mainMenuAchievements@2x.png":
+{
+	"frame": {"x":616,"y":2,"w":356,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":356,"h":60},
+	"sourceSize": {"w":360,"h":68}
+},
+"mainMenuIdol@2x.png":
+{
+	"frame": {"x":2,"y":388,"w":240,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":0,"w":240,"h":272},
+	"sourceSize": {"w":340,"h":280}
+},
+"mainMenuLeaderboards@2x.png":
+{
+	"frame": {"x":2,"y":662,"w":222,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":222,"h":70},
+	"sourceSize": {"w":240,"h":80}
+},
+"mainMenuLogo@2x.png":
+{
+	"frame": {"x":2,"y":2,"w":612,"h":336},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":24,"w":612,"h":336},
+	"sourceSize": {"w":640,"h":360}
+},
+"mainMenuMoreGames@2x.png":
+{
+	"frame": {"x":616,"y":64,"w":296,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":296,"h":80},
+	"sourceSize": {"w":300,"h":92}
+},
+"mainMenuOptions@2x.png":
+{
+	"frame": {"x":616,"y":310,"w":258,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":5,"w":258,"h":76},
+	"sourceSize": {"w":272,"h":92}
+},
+"mainMenuStore@2x.png":
+{
+	"frame": {"x":244,"y":340,"w":230,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":230,"h":70},
+	"sourceSize": {"w":240,"h":80}
+},
+"moreCoins.png":
+{
+	"frame": {"x":616,"y":229,"w":282,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":282,"h":79},
+	"sourceSize": {"w":286,"h":83}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "MainMenu2x.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8230136151ae1c358748e59ff2f6e06c$"
+}
+}

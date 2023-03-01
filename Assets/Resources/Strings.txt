@@ -1,0 +1,327 @@
+﻿﻿"VersionNumber" = "v1.5a1";
+
+"LevelLoadingTitle" = "Loading...";
+
+"Ok" = "Ok";
+"No" = "No";
+"Yes" = "Yes";
+
+"RewardAlertTitle" = "You earned coins!";
+"RewardAlertMessage" = "You earned {0} coins for installing free apps!";
+
+"StoreAlertErrorTitle" = "Purchase Failed";
+"StoreAlertErrorUnknownText" = "Cannot connect to iTunes Store";
+"StoreAlertConfirm" = "Ok";
+
+"StoreVideoAdsDesc" = "Watch a Video";
+"StoreFacebookLikeDesc" = "Like Temple Run!";
+"StoreFullScreenAdsDesc" = "Enable Ads";
+
+"StoreEnableAdsAlertTitle" = "FREE Games Ads";
+"StoreEnableAdsAlertText" = "Would you like to enable full-screen ads at the end of each game and receive {0} coins?";
+"StoreEnableAdsAlertNo" = "No Thanks";
+"StoreEnableAdsAlertYes" = "Enable Ads!";
+
+"StoreFacebookLikeAlertTitle" = "Like on Facebook";
+"StoreFacebookLikeAlertText" = "Like Temple Run on Facebook for {0} FREE Coins!";
+"StoreFacebookLikeAlertNo" = "No Thanks";
+"StoreFacebookLikeAlertYes" = "Like It!";
+
+"StoreTwitterFollowAlertTitle" = "Follow on Twitter";
+"StoreTwitterFollowAlertText" = "Folow Temple Run on Twitter for {0} FREE Coins!";
+"StoreTwitterFollowAlertNo" = "No Thanks";
+"StoreTwitterFollowAlertYes" = "Follow us!";
+
+
+"StoreAlertErrorNoVideoTitle" = "Offer Not Available";
+"StoreAlertErrorNoVideoMessage" = "This offer is not available at this time. Please try again later!";
+
+"StoreNagTitle" = "Upgrade Store";
+"StoreNagDescription" = "You've collected some coins - you can now upgrade your character at the store to help you score even higher!";
+"StoreNagCancelButton" = "Not Now";
+"StoreNagActionButton" = "View Store!";
+
+"StoreViewHeaderPowerups" = "POWERUPS";
+"StoreViewHeaderUtilities" = "UTILITIES";
+"StoreViewHeaderCharacters" = "CHARACTERS";
+"StoreViewHeaderWallpapers" = "WALLPAPERS";
+"StoreViewHeaderDisableAds" = "DISABLE ADS";
+
+"StoreItemSingleUse" = "SINGLE USE";
+"StoreItemUnlock" = "UNLOCK";
+"StoreItemDisableAds" = "DISABLE ADS";
+"StoreItemAdsDisabled" = "ADS DISABLED";
+"StoreItemUpgrade" = "UPGRADE";
+"StoreItemResurrectionWingsPopupTitle" = "Resurrection Wings";
+"StoreItemResurrectionWingsPopupText" = "When wearing the Resurrection Wings, you will resurrect immediately after death. Double tap anywhere while playing to put them on.  The wings will last 30 seconds.";
+"StoreItemHeadStartPopupTitle" = "Head Start";
+"StoreItemHeadStartPopupText" = "Press the Head Start button at the beginning of a game to boost forward 1,000m.";
+"StoreItemHeadStartMegaPopupTitle" = "Mega Head Start";
+"StoreItemHeadStartMegaPopupText" = "Press the Mega Head Start button at the beginning of a game to boost forward 2,500m.";
+"StoreItemNotEnoughCoinsTitle" = "Not Enough Coins!";
+"StoreItemNotEnoughCoinsText" = "Would you like to get more coins?";
+
+"StoreItemDescriptionUnknown" = "Unknown";
+
+"StoreItemCoinBonusLevel0" = "Enable the 50 Coin powerup.";
+"StoreItemCoinBonusLevel1" = "Increase Mega Coin to 75 coins.";
+"StoreItemCoinBonusLevel2" = "Increase Mega Coin to 100 coins.";
+"StoreItemCoinBonusLevel3" = "Increase Mega Coin to 125 coins.";
+"StoreItemCoinBonusLevel4" = "Increase Mega Coin to 150 coins.";
+"StoreItemCoinBonusLevel5" = "Mega Coin fully upgraded!";
+
+"StoreItemMagnetLevel0" = "Enable the Coin Magnet powerup.";
+"StoreItemMagnetLevel1" = "Make Coin Magnet last longer.";
+"StoreItemMagnetLevel2" = "Coin Magnet doubles coin value.";
+"StoreItemMagnetLevel3" = "Make Coin Magnet last longer.";
+"StoreItemMagnetLevel4" = "Coin Magnet triples coin value.";
+"StoreItemMagnetLevel5" = "Coin Magnet fully upgraded!";
+
+"StoreItemInvincibilityLevel0" = "Enable the Invisibility powerup.";
+"StoreItemInvincibilityLevel1" = "Make Invisibility last longer.";
+"StoreItemInvincibilityLevel2" = "Make Invisibility last longer.";
+"StoreItemInvincibilityLevel3" = "Make Invisibility last longer.";
+"StoreItemInvincibilityLevel4" = "Make Invisibility last longer.";
+"StoreItemInvincibilityLevel5" = "Invisibility fully upgraded!";
+
+"StoreItemCoinValueLevel0" = "Double Value coins after 1500m.";
+"StoreItemCoinValueLevel1" = "Double Value coins after 1000m.";
+"StoreItemCoinValueLevel2" = "Triple Value coins after 3000m.";
+"StoreItemCoinValueLevel3" = "Triple Value coins after 2500m.";
+"StoreItemCoinValueLevel4" = "Triple Value coins after 2000m.";
+"StoreItemCoinValueLevel5" = "Coin Values fully upgraded!";
+
+"StoreItemBoostLevel0" = "Enable the 250m Boost powerup.";
+"StoreItemBoostLevel1" = "Increase Boost to 375m.";
+"StoreItemBoostLevel2" = "Increase Boost to 500m.";
+"StoreItemBoostLevel3" = "Increase Boost to 625m.";
+"StoreItemBoostLevel4" = "Increase Boost to 750m.";
+"StoreItemBoostLevel5" = "Boost fully upgraded!";
+
+"StoreItemAngelWingsDescription" = "When active you resurrect immediately after death.";
+
+"StoreItemHeadStartDescription" = "Boost ahead 1000m at the start of the game.";
+"StoreItemHeadStartMegaDescription" = "Mega Boost ahead 2500m at the start of the game.";
+
+"StoreItemPlayerGuyLevel0" = "Unlock Guy Dangerous, just your average explorer.";
+"StoreItemPlayerGuyLevel1" = "Guy Dangerous, just your average explorer.";
+
+"StoreItemPlayerGirlLevel0" = "Unlock Scarlett Fox, the cunning escape artist.";
+"StoreItemPlayerGirlLevel1" = "Scarlett Fox, the cunning escape artist.";
+
+"StoreItemPlayerBigBLevel0" = "Unlock Barry Bones, a city cop with an attitude.";
+"StoreItemPlayerBigBLevel1" = "Barry Bones, a city cop with an attitude.";
+
+"StoreItemPlayerChinaLevel0" = "Unlock Karma Lee, the fastest legs in the Far East.";
+"StoreItemPlayerChinaLevel1" = "Karma Lee, the fastest legs in the Far East.";
+
+"StoreItemPlayerIndiLevel0" = "Unlock Montana Smith, the second greatest explorer ever.";
+"StoreItemPlayerIndiLevel1" = "Montana Smith, the second greatest explorer ever.";
+
+"StoreItemPlayerConquistadorLevel0" = "Unlock Francisco Montoya, the conquistador.";
+"StoreItemPlayerConquistadorLevel1" = "Francisco Montoya, the conquistador.";
+
+"StoreItemPlayerFootballLevel0" = "Unlock Zack Wonder, football star.";
+"StoreItemPlayerFootballLevel1" = "Zack Wonder, football star.";
+
+"StoreItemDownloadContentDownloading" = "Downloading...";
+"StoreItemDownloadContentSaving" = "Saving...";
+
+"StoreItemWallpaperSavedTitle" = "Wallpaper Saved";
+"StoreItemWallpaperSavedDescription" = "Your wallpaper has been saved to your photos album.";
+
+"StoreItemDownloadContentFailedTitle" = "Download Failed";
+"StoreItemDownloadContentFailedDescription" = "Unable to download this item. Make sure your internet connection is available, and try again.";
+
+"StoreItemWallpaperALevel0" = "Unlock the Temple Wall wallpaper.";
+"StoreItemWallpaperALevel1" = "Download the Temple Wall wallpaper.";
+"StoreItemWallpaperAURLPhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunWall-iPhoneSmall.png";
+"StoreItemWallpaperAURLPhoneRetina" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunWall-iPhone.png";
+"StoreItemWallpaperAURLPad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunWall-iPad.png";
+
+"StoreItemWallpaperBLevel0" = "Unlock the Guy Dangerous wallpaper.";
+"StoreItemWallpaperBLevel1" = "Download the Guy Dangerous wallpaper.";
+"StoreItemWallpaperBURLPhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunGuyDangerous-iPhoneSmall.png";
+"StoreItemWallpaperBURLPhoneRetina" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunGuyDangerous-iPhone.png";
+"StoreItemWallpaperBURLPad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunGuyDangerous-iPad.png";
+
+"StoreItemWallpaperCLevel0" = "Unlock the Evil Demon Monkeys wallpaper.";
+"StoreItemWallpaperCLevel1" = "Download the Evil Demon Monkeys wallpaper.";
+"StoreItemWallpaperCURLPhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunMonkeys-iPhoneSmall.png";
+"StoreItemWallpaperCURLPhoneRetina" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunMonkeys-iPhone.png";
+"StoreItemWallpaperCURLPad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/images/wallpapers/TempleRunMonkeys-iPad.png";
+
+"StoreItemWallpaperDLevel0" = "Unlock the Temple Wall wallpaper.";
+"StoreItemWallpaperDLevel1" = "Download the Temple Wall wallpaper.";
+
+"StoreItemWallpaperELevel0" = "Unlock the Temple Wall wallpaper.";
+"StoreItemWallpaperELevel1" = "Download the Temple Wall wallpaper.";
+
+"StoreItemDisableAdsLevel0" = "Remove end-game ads.";
+"StoreItemDisableAdsLevel1" = "End-game ads removed.";
+
+"StoreItemCurrentlyActive" = "CURRENTLY ACTIVE";
+"StoreItemActivate" = "ACTIVATE";
+"StoreItemFullyUpgraded" = "FULLY UPGRADED";
+"StoreItemDownload" = "DOWNLOAD";
+
+"CoinStoreNagTitle" = "Want FREE Coins?";
+"CoinStoreNagDescription" = "Watch videos or complete other offers for coins in the FREE Offers section of the Coin Store!";
+"CoinStoreNagCancelButton" = "No Thanks";
+"CoinStoreNagActionButton" = "FREE Coins!";
+
+"StoreIapViewNoInternetErrorTitle" = "No Internet Connection";
+"StoreIapViewNoInternetErrorMessage" = "Cannot connect to store. Make sure your internet connection is available.";
+"StoreIapViewContactingStore" = "Contacting Store...";
+"StoreIapViewLoadingProducts" = "LoadingProducts...";
+"StoreIapViewFreeCoins" = "{0} Free Coins";
+"StoreIapViewCoins" = "Coins";
+"StoreIapViewFreeOffers" = "FREE OFFERS";
+
+
+"NewGameTitle" = "New Game";
+"NewGameDescription" = "Your progress will be lost! Are you sure you want to start a new game?";
+"NewGameCancelButton" = "No";
+"NewGameActionButton" = "Yes";
+
+"ExitGameTitle" = "Exit Game";
+"ExitGameDescription" = "Your progress will be lost! Are you sure you want to exit?";
+"ExitGameCancelButton" = "No";
+"ExitGameActionButton" = "Yes";
+
+"ReviewRequestTitle" = "Enjoying Temple Run?";
+"ReviewRequestBody" = "Please leave us a review!";
+"ReviewRequestReviewButton" = "Rate it on the App Store!";
+"ReviewRequestRemindButton" = "Remind me later";
+"ReviewRequestDontAskButton" = "Don't ask again";
+"ReviewRequestURL" = "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=420009108";
+"ReviewRequestURLiPad" = "http://itunes.apple.com/us/app/temple-run/id420009108?mt=8&uo=6&partnerId=30&siteID=x57HaVmLCLA";
+
+"PromoFilePhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/promo/TempleRunPhone.plist";
+"PromoFilePad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/promo/TempleRunPad.plist";
+
+"MoreGamesLitePad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/templerun-ipad.html";
+"MoreGamesLitePhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/templerun.html";
+"MoreGamesPad" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/templerun-ipad.html";
+"MoreGamesPhone" = "http://com.imangi.s3-website-us-east-1.amazonaws.com/iphone/templerun.html";
+
+"DeathCaptionFossil1" = "Simply mystifying!";
+"DeathCaptionFossil2" = "An ancient dance of hokey pokey.";
+
+"DeathCaptionFall1" = "You fell to your death.";
+"DeathCaptionFall2" = "Aaaaaaaah!";
+"DeathCaptionFall3" = "You fell to your death.";
+"DeathCaptionFall4" = "But I'm scared of heights!";
+"DeathCaptionFall5" = "End of the road...";
+"DeathCaptionFall6" = "Mind the gap.";
+"DeathCaptionFall7" = "Missed it by *that* much.";
+"DeathCaptionFallBigB1" = "Not again!";
+"DeathCaptionFallBigB2" = "I'm reporing this safety violation!";
+"DeathCaptionFallChina1" = "I knew I should have learned how to fly!";
+"DeathCaptionFallConq" = "Adios!";
+"DeathCaptionFallFootball" = "Good thing I wore my helmet!";
+
+"DeathCaptionWater1" = "You made a tasty snack.";
+"DeathCaptionWater2" = "Feeding time!";
+"DeathCaptionWater3" = "Swimming with the fishes.";
+"DeathCaptionWater4" = "Snakes!? I hate snakes!";
+"DeathCaptionWater5" = "Bubble, bubble, bubble...";
+"DeathCaptionWater6" = "Where did you go?";
+"DeathCaptionWaterBigB1" = "Who let Barney out of his cage?";
+"DeathCaptionWaterBigB2" = "So close.";
+"DeathCaptionWaterChina1" = "Is someone watching me?";
+"DeathCaptionWaterFootball" = "Man down!";
+
+"DeathCaptionTree1" = "Tree Hugger!";
+"DeathCaptionTree2" = "Trees hurt.";
+"DeathCaptionTree3" = "Are we bugging you?";
+"DeathCaptionTree4" = "Ants. Why did it have to be ants?";
+"DeathCaptionTree5" = "I always make a good impression.";
+"DeathCaptionTree6" = "I'll just leave that here.";
+"DeathCaptionTreeBigB1" = "Who left this tree here?";
+"DeathCaptionTreeChina1" = "I left my mark on the world.";
+"DeathCaptionTreeConq" = "At least my hat is safe.";
+"DeathCaptionTreeFootball" = "I need a time out";
+
+"DeathCaptionTreeScenery1" = "Two lovebirds...";
+"DeathCaptionTreeScenery2" = "Mind if I hang out?";
+"DeathCaptionTreeScenery3" = "I didn't see that there.";
+"DeathCaptionTreeScenery4" = "It hurts the tree more than me.";
+"DeathCaptionTreeScenery5" = "Not my hat!!!";
+"DeathCaptionTreeScenery6" = "I'm not the same without my hat!";
+
+"DeathCaptionSceneryRock1" = "Harder than it looks...";
+"DeathCaptionSceneryRock2" = "Good thing I have a hard head!";
+"DeathCaptionSceneryRock3" = "My helmet didn't even help...";
+
+"DeathCaptionSlide1" = "Hard to run without a head.";
+"DeathCaptionSlide2" = "Don't forget to duck!";
+"DeathCaptionSlide3" = "Knocked your socks off!";
+"DeathCaptionSlide4" = "Looks like I'm stuck here a while.";
+"DeathCaptionSlide5" = "Don't look at my hairy legs!";
+"DeathCaptionSlideBigB1" = "Should have worn my nice socks.";
+"DeathCaptionSlideChina1" = "Time to go back to Limbo 101.";
+
+"DeathCaptionLedge1" = "Watch your step...";
+"DeathCaptionLedge2" = "Temple slippery when wet.";
+
+"DeathCaptionBurnt1" = "Mmmm, crispy explorer.";
+"DeathCaptionBurnt2" = "Smells like toast.";
+"DeathCaptionBurnt3" = "Having a bad hair day?";
+"DeathCaptionBurnt4" = "I just had that dry cleaned!";
+"DeathCaptionBurntConq" = "Warning: Armor Not Fireproof.";
+
+"DeathCaptionEaten1" = "You made a tasty snack.";
+"DeathCaptionEaten2" = "I eat explorers like you for breakfast.";
+"DeathCaptionEaten3" = "Nom nom... leathery!";
+"DeathCaptionEaten4" = "Tackled just before the endzone!";
+"DeathCaptionEatenConq" = "This one has a shell!";
+"DeathCaptionEatenFootball" = "Tackled!";
+
+"DeathCaptionTangle1" = "All tangled up...";
+"DeathCaptionTangle2" = "Caught you!";
+"DeathCaptionTangle3" = "Untied laces cause accidents.";
+"DeathCaptionTangle4" = "I've gotta bad feeling about this...";
+"DeathCaptionTangle5" = "If only I had my lighter...";
+"DeathCaptionTangleBigB1" = "This is not how I imagined my retirement.";
+"DeathCaptionTangleBigB2" = "Wonder where these skulls came from?";
+"DeathCaptionTangleChina1" = "That's just unsanitary!";
+"DeathCaptionTangleConq" = "That looks like Uncle Hernan!";
+
+"TwitterUsernamePlaceholder" = "Username";
+"TwitterPasswordPlaceholder" = "Password";
+"TwitterMessage" = "I got %@ points while escaping from demon monkeys in Temple Run. Beat that! http://bit.ly/TempleRunGame";
+"TwitterStatusUpdateFail" = "Tweet Failed: Check your login or try again later";
+
+"FacebookLikeURL" = "http://www.facebook.com/TempleRun";
+"FollowUsURL2" = "http://twitter.com/templerun";
+"FollowUsURL" = "    https://mobile.twitter.com/templerun";
+
+"OptionsMusicLabel" = "Music";
+"OptionsSoundLabel" = "Sound";
+"OptionsTutorialLabel" = "Tutorial";
+"OptionsFriendMarkersLabel" = "Friend Markers";
+
+"StatsMenuMultiplier" = "Multiplier: {0}x";
+"StatsMenuSingleRun" = "Single Run";
+"StatsMenuHighestScore" = "Highest Score:";
+"StatsMenuLongestRun" = "Longest Run:";
+"StatsMenuMostCoins" = "Most Coins:";
+"StatsMenuLifetime" = "Lifetime";
+"StatsMenuTotalGames" = "Total Games:";
+"StatsMenuTotalDistance" = "Total Distance:";
+"StatsMenuTotalCoins" = "Total Coins:";
+
+"PauseMenuScore" = "Score:";
+"PauseMenuDistance" = "Distance:";
+"PauseMenuCoins" = "Coins:";
+"PauseMenuMultiplier" = "Multiplier:";
+"PauseMenuNextObjective" = "Next Objective:";
+
+"EndGameMessageYourBestScore" = "Your Best Score!!!";
+"EndGameMessageDistance" = "Distance:";
+"EndGameMessageCoins" = "Coins:";
+"EndGameMessageMultiplier" = "Multiplier:";
+
+"EndGameAchievementsMultiplier" = "Multiplier:";
+"EndGameAchievementsNextObjective" = "Next Objective:";

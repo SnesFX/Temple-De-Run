@@ -1,0 +1,252 @@
+deathtype kDeathTypeFall
+	character 1
+		image deathIllustrationGirlFallB@2x.png
+			caption DeathCaptionFall 1..7
+		image deathIllustrationGirlWater@2x.png
+			caption DeathCaptionWater 1..3
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 2
+		image deathIllustrationBigBFall@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallBigB 1..2
+		image deathIllustrationBigBWater@2x.png
+			caption DeathCaptionWater 1..3
+			caption DeathCaptionWaterBigB 1..2
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 3
+		image deathIllustrationChinaFall@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallChina1
+		image deathIllustrationChinaWater@2x.png
+			caption DeathCaptionWater3
+			caption DeathCaptionWaterChina1
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 4
+		image deathIllustrationIndiFall@2x.png
+			caption DeathCaptionFall 1..7
+		image deathIllustrationIndiWater@2x.png
+			caption DeathCaptionWater 1..2
+			caption DeathCaptionWather4
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 5
+		image deathIllustrationConqFallB@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallConq
+		image  deathIllustrationWaterB@2x.png
+			caption DeathCaptionWater 5..6
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 6
+		image deathIllustrationFootballFallB@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallFootball
+		image deathIllustrationFootballWater@2x.png
+			caption DeathCaptionWater 5..6
+			caption DeathCaptionWaterFootball
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+	character 0
+		image deathIllustrationFallA@2x.png
+			caption DeathCaptionFall 1..7
+		image deathIllustrationFallB@2x.png
+			caption DeathCaptionFall 1..7
+		image deathIllustrationWater@2x.png
+			caption DeathCaptionWater 1..2
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2
+deathtype kDeathTypeTree
+	character 1
+		image deathIllustrationGirlTree@2x.png
+			caption DeathCaptionTree 3..4
+	character 2
+		image deathIllustrationBigBTreeB@2x.png
+			caption DeathCaptionTree1
+			caption DeathCaptionTree2
+			caption DeathCaptionTree5
+			caption DeathCaptionTreeScenery3
+			caption DeathCaptionTreeBigB1
+	character 3
+		image deathIllustrationChinaTreeB@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTreeChina1
+	character 4
+		image deathIllustrationIndiTree@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTree5
+	character 5
+		image deathIllustrationIndiTree@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTree5
+	character 6
+		image deathIllustrationFootballTree@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTree5
+			caption DeathCaptionTreeFootball
+	character 0
+		image deathIllustrationTree@2x.png
+			caption DeathCaptionTree 1..2
+deathtype kDeathTypeSceneryTree
+	character 1
+		image deathIllustrationGirlTreeB@2x.png
+			caption DeathCaptionTreeScenery 1..2
+	character 2
+		image deathIllustrationBigBTreeB@2x.png
+			caption DeathCaptionTree1
+			caption DeathCaptionTree2
+			caption DeathCaptionTree5
+			caption DeathCaptionTreeScenery3
+			caption DeathCaptionTreeBigB1
+	character 3
+		image deathIllustrationChinaTreeB@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTreeChina1
+	character 4
+		image deathIllustrationIndiTree@2x.png
+			caption DeathCaptionTreeScenery 3..4
+		image deathIllustrationIndiTreeB@2x.png
+			caption DeathCaptionTreeScenery 5..6
+	character 5
+		image deathIllustrationConqTreeB@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTree6
+			caption DeathCaptionTreeConq
+	character 6
+		image deathIllustrationFootballTree@2x.png
+			caption DeathCaptionTree2
+			caption DeathCaptionTreeBigB1
+	character 0
+		image deathIllustrationTree@2x.png
+			caption DeathCaptionTree 1..2
+deathtype kDeathTypeSceneryRock
+	character 6
+		image deathIllustrationFootballRocks@2x.png
+			caption DeathCaptionSceneryRock 1..3
+	character 0
+		image deathIllustrationRocks@2x.png
+			caption DeathCaptionSceneryRock 1..2
+deathtype kDeathTypeSlide
+	character 1
+		image deathIllustrationGirlSlide@2x.png
+			caption DeathCaptionSlide 2..3
+	character 2
+		image deathIllustrationBigBSlide@2x.png
+			caption DeathCaptionSlide3
+			caption	DeathCaptionSlideBigB1
+	character 3
+		image deathIllustrationChinaSlide@2x.png
+			caption DeathCaptionSlide2
+			caption DeathCaptionSlideChina1
+	character 4
+		image deathIllustrationIndiSlide@2x.png
+			caption DeathCaptionSlide2
+			caption DeathCaptionSlide4
+	character 5
+		image deathIllustrationConqSlide@2x.png
+			caption DeathCaptionSlide2
+			caption DeathCaptionSlide5
+	character 6
+		image deathIllustrationFootballTree@2x.png
+			caption DeathCaptionSlide 1..2
+	character 0
+		image deathIllustrationSlide@2x.png
+			caption DeathCaptionSlide 1..2
+deathtype kDeathTypeLedge
+	character 1
+		image deathIllustrationGirlFallB@2x.png
+			caption DeathCaptionLedge 1..2
+	character 2
+		image deathIllustrationBigBFall@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallBigB 1..2
+	character 3
+		image deathIllustrationChinaFall@2x.png
+			caption DeathCaptionFall 1..7
+			caption DeathCaptionFallChina1
+	character 4
+		image deathIllustrationIndiFall@2x.png
+			caption DeathCaptionLedge 1..2
+	character 5
+		image deathIllustrationConqFallB@2x.png
+			caption DeathCaptionLedge 1..2
+	character 6
+		image deathIllustrationFootballFallB@2x.png
+			caption DeathCaptionLedge 1..2
+	character 0
+		image deathIllustrationLedge@2x.png
+			caption DeathCaptionLedge 1..2
+deathtype kDeathTypeBurnt
+	character 1
+		image deathIllustrationGirlBurnt@2x.png
+			caption DeathCaptionBurnt 1..3
+	character 5
+		image deathIllustrationConqBurnt@2x.png
+			caption DeathCaptionBurnt1
+			caption DeathCaptionBurnt2
+			caption DeathCaptionBurnt4
+			caption DeathCaptionBurntConq
+	character 0
+		image deathIllustrationBurnt@2x.png
+			caption DeathCaptionBurnt 1..2
+		image deathIllustrationBurntB@2x.png
+			caption DeathCaptionBurnt 1..2
+deathtype kDeathTypeEaten
+	character 1
+		image deathIllustrationEatenB@2x.png
+			caption DeathCaptionEaten 1..3
+	character 2
+		image deathIllustrationEatenB@2x.png
+			caption DeathCaptionEaten 1..3
+	character 3
+		image deathIllustrationEatenB@2x.png
+			caption DeathCaptionEaten 1..3
+		image deathIllustrationIndiEaten@2x.png
+			caption DeathCaptionEaten 1..3
+	character 5
+		image deathIllustrationConqEaten@2x.png
+			caption DeathCaptionEaten 1..3
+			caption DeathCaptionEatenConq
+	character 6
+		image deathIllustrationFootballEaten@2x.png
+			caption DeathCaptionEaten1
+			caption DeathCaptionEaten2
+			caption DeathCaptionEaten4
+			caption DeathCaptionEatenFootball
+	character 0
+		image deathIllustrationEaten@2x.png
+			caption DeathCaptionEaten 1..3
+		image deathIllustrationEatenB@2x.png
+			caption DeathCaptionEaten 1..3
+deathtype kDeathTypeTangle
+	character 1
+		image deathIllustrationGirlTangle@2x.png
+			caption DeathCaptionTangle 1..4
+	character 2
+		image deathIllustrationBigBTangle@2x.png
+			caption DeathCaptionTangle 1..2
+			caption DeathCaptionTangleBigB 1..2
+	character 3
+		image deathIllustrationChinaTangle@2x.png
+			caption DeathCaptionTangle 1..2
+			caption DeathCaptionTangleChina1
+	character 4
+		image deathIllustrationIndiTangle@2x.png
+			caption DeathCaptionTangle 1..4
+			caption DeathCaptionTangle 4..5
+	character 5
+		image deathIllustrationConqTangle@2x.png
+			caption DeathCaptionTangle 1..4
+			caption DeathCaptionTangleConq
+	character 6
+		image deathIllustrationFootballTangle@2x.png
+			caption DeathCaptionTangle 1..4
+	character 0
+		image deathIllustrationTangle@2x.png
+			caption DeathCaptionTangle 1..4
+deathtype kDeathTypeNone
+	character 0
+		image deathIllustrationFossil@2x.png
+			caption DeathCaptionFossil 1..2

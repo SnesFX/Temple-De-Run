@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1030555262484822}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1030555262484822
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4267286512081932}
+  - 114: {fileID: 114111711579964375}
+  m_Layer: 0
+  m_Name: Shine Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4267286512081932
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030555262484822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1932.9921, y: 178.22794, z: 84.3078}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114111711579964375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030555262484822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: 663d9546a73653049adaeb47285652cf, type: 2}
+  sprites:
+  - name: shine1@2x
+    outer:
+      serializedVersion: 2
+      x: 1200
+      y: 400
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 1200
+      y: 400
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine10@2x
+    outer:
+      serializedVersion: 2
+      x: 1600
+      y: 400
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 1600
+      y: 400
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine2@2x
+    outer:
+      serializedVersion: 2
+      x: 1600
+      y: 0
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 1600
+      y: 0
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine3@2x
+    outer:
+      serializedVersion: 2
+      x: 1200
+      y: 0
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 1200
+      y: 0
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine4@2x
+    outer:
+      serializedVersion: 2
+      x: 800
+      y: 400
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 400
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine5@2x
+    outer:
+      serializedVersion: 2
+      x: 800
+      y: 0
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 0
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine6@2x
+    outer:
+      serializedVersion: 2
+      x: 400
+      y: 400
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 400
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine7@2x
+    outer:
+      serializedVersion: 2
+      x: 400
+      y: 0
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 0
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine8@2x
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shine9@2x
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 400
+      height: 400
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

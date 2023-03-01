@@ -1,0 +1,36 @@
+{"frames": {
+
+"Arial_White.png":
+{
+	"frame": {"x":512,"y":2,"w":500,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":500,"h":292},
+	"sourceSize": {"w":512,"h":512}
+},
+"Cheboygan_Arty.png":
+{
+	"frame": {"x":512,"y":296,"w":498,"h":442},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":498,"h":442},
+	"sourceSize": {"w":512,"h":512}
+},
+"Cheboygan_White.png":
+{
+	"frame": {"x":2,"y":2,"w":508,"h":306},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":508,"h":306},
+	"sourceSize": {"w":512,"h":512}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "FontAtlas2x.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:018c07c9ad21796b53fed25c3c7215cd$"
+}
+}

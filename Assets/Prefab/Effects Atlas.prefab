@@ -1,0 +1,1400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1034622765914314}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1034622765914314
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4889398101926632}
+  - 114: {fileID: 114874954756347391}
+  m_Layer: 0
+  m_Name: Effects Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4889398101926632
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034622765914314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2082.241, y: -148.24289, z: 84.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114874954756347391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034622765914314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: b58147c4733fc3f44b6714450ca17706, type: 2}
+  sprites:
+  - name: boost1.png
+    outer:
+      serializedVersion: 2
+      x: 601
+      y: 523
+      width: 76
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 601
+      y: 523
+      width: 76
+      height: 104
+    paddingLeft: 0.21052632
+    paddingRight: 0.10526316
+    paddingTop: 0.03846154
+    paddingBottom: 0
+  - name: boost10.png
+    outer:
+      serializedVersion: 2
+      x: 339
+      y: 525
+      width: 80
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 339
+      y: 525
+      width: 80
+      height: 106
+    paddingLeft: 0.0875
+    paddingRight: 0.1625
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost11.png
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 300
+      width: 70
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 300
+      width: 70
+      height: 104
+    paddingLeft: 0.22857143
+    paddingRight: 0.2
+    paddingTop: 0.03846154
+    paddingBottom: 0
+  - name: boost12.png
+    outer:
+      serializedVersion: 2
+      x: 849
+      y: 366
+      width: 78
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 849
+      y: 366
+      width: 78
+      height: 102
+    paddingLeft: 0.14102565
+    paddingRight: 0.14102565
+    paddingTop: 0.05882353
+    paddingBottom: 0
+  - name: boost2.png
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 334
+      width: 86
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 334
+      width: 86
+      height: 106
+    paddingLeft: 0.12790698
+    paddingRight: 0.034883723
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost3.png
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 300
+      width: 90
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 300
+      width: 90
+      height: 106
+    paddingLeft: 0.11111111
+    paddingRight: 0
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost4.png
+    outer:
+      serializedVersion: 2
+      x: 421
+      y: 502
+      width: 82
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 421
+      y: 502
+      width: 82
+      height: 106
+    paddingLeft: 0.085365854
+    paddingRight: 0.13414635
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost5.png
+    outer:
+      serializedVersion: 2
+      x: 936
+      y: 226
+      width: 86
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 936
+      y: 226
+      width: 86
+      height: 106
+    paddingLeft: 0.034883723
+    paddingRight: 0.12790698
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost6.png
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 300
+      width: 90
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 300
+      width: 90
+      height: 106
+    paddingLeft: 0
+    paddingRight: 0.11111111
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost7.png
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 325
+      width: 82
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 325
+      width: 82
+      height: 108
+    paddingLeft: 0.14634146
+    paddingRight: 0.07317073
+    paddingTop: 0
+    paddingBottom: 0
+  - name: boost8.png
+    outer:
+      serializedVersion: 2
+      x: 255
+      y: 900
+      width: 86
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 255
+      y: 900
+      width: 86
+      height: 106
+    paddingLeft: 0.093023255
+    paddingRight: 0.069767445
+    paddingTop: 0.018867925
+    paddingBottom: 0
+  - name: boost9.png
+    outer:
+      serializedVersion: 2
+      x: 679
+      y: 511
+      width: 80
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 679
+      y: 511
+      width: 80
+      height: 104
+    paddingLeft: 0.0375
+    paddingRight: 0.2125
+    paddingTop: 0.03846154
+    paddingBottom: 0
+  - name: dustLand1.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 991
+      width: 32
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 991
+      width: 32
+      height: 23
+    paddingLeft: 1.0625
+    paddingRight: 1.0625
+    paddingTop: 1.0869565
+    paddingBottom: 0.82608694
+  - name: dustLand10.png
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 80
+      width: 44
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 80
+      width: 44
+      height: 55
+    paddingLeft: 0.4090909
+    paddingRight: 0.8636364
+    paddingTop: 0.14545454
+    paddingBottom: 0.07272727
+  - name: dustLand2.png
+    outer:
+      serializedVersion: 2
+      x: 645
+      y: 629
+      width: 38
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 645
+      y: 629
+      width: 38
+      height: 35
+    paddingLeft: 0.81578946
+    paddingRight: 0.81578946
+    paddingTop: 0.51428574
+    paddingBottom: 0.4
+  - name: dustLand3.png
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 179
+      width: 44
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 179
+      width: 44
+      height: 39
+    paddingLeft: 0.6136364
+    paddingRight: 0.65909094
+    paddingTop: 0.3846154
+    paddingBottom: 0.33333334
+  - name: dustLand4.png
+    outer:
+      serializedVersion: 2
+      x: 190
+      y: 949
+      width: 48
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 190
+      y: 949
+      width: 48
+      height: 39
+    paddingLeft: 0.5416667
+    paddingRight: 0.5416667
+    paddingTop: 0.41025642
+    paddingBottom: 0.30769232
+  - name: dustLand5.png
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 839
+      width: 52
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 839
+      width: 52
+      height: 43
+    paddingLeft: 0.46153846
+    paddingRight: 0.46153846
+    paddingTop: 0.3255814
+    paddingBottom: 0.23255815
+  - name: dustLand6.png
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 366
+      width: 52
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 366
+      width: 52
+      height: 49
+    paddingLeft: 0.44230768
+    paddingRight: 0.48076922
+    paddingTop: 0.20408164
+    paddingBottom: 0.1632653
+  - name: dustLand7.png
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 786
+      width: 56
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 786
+      width: 56
+      height: 51
+    paddingLeft: 0.375
+    paddingRight: 0.4107143
+    paddingTop: 0.19607843
+    paddingBottom: 0.11764706
+  - name: dustLand8.png
+    outer:
+      serializedVersion: 2
+      x: 605
+      y: 466
+      width: 58
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 605
+      y: 466
+      width: 58
+      height: 55
+    paddingLeft: 0.3448276
+    paddingRight: 0.37931034
+    paddingTop: 0.16363636
+    paddingBottom: 0.054545455
+  - name: dustLand9.png
+    outer:
+      serializedVersion: 2
+      x: 599
+      y: 629
+      width: 44
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 599
+      y: 629
+      width: 44
+      height: 55
+    paddingLeft: 0.45454547
+    paddingRight: 0.8181818
+    paddingTop: 0.16363636
+    paddingBottom: 0.054545455
+  - name: fire1.png
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 297
+      width: 128
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 297
+      width: 128
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.1343284
+    paddingBottom: 0
+  - name: fire10.png
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 252
+      width: 128
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 252
+      width: 128
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.1343284
+    paddingBottom: 0
+  - name: fire11.png
+    outer:
+      serializedVersion: 2
+      x: 806
+      y: 226
+      width: 128
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 806
+      y: 226
+      width: 128
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0724638
+    paddingBottom: 0
+  - name: fire2.png
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 179
+      width: 128
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 179
+      width: 128
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0140845
+    paddingBottom: 0
+  - name: fire3.png
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 158
+      width: 128
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 158
+      width: 128
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.1343284
+    paddingBottom: 0
+  - name: fire4.png
+    outer:
+      serializedVersion: 2
+      x: 546
+      y: 229
+      width: 128
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 546
+      y: 229
+      width: 128
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0724638
+    paddingBottom: 0
+  - name: fire5.png
+    outer:
+      serializedVersion: 2
+      x: 835
+      y: 80
+      width: 128
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 835
+      y: 80
+      width: 128
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.9066667
+    paddingBottom: 0
+  - name: fire6.png
+    outer:
+      serializedVersion: 2
+      x: 546
+      y: 158
+      width: 128
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 546
+      y: 158
+      width: 128
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0724638
+    paddingBottom: 0
+  - name: fire7.png
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 80
+      width: 128
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 80
+      width: 128
+      height: 75
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.9066667
+    paddingBottom: 0
+  - name: fire8.png
+    outer:
+      serializedVersion: 2
+      x: 853
+      y: 157
+      width: 128
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 853
+      y: 157
+      width: 128
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.1343284
+    paddingBottom: 0
+  - name: fire9.png
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 227
+      width: 128
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 227
+      width: 128
+      height: 71
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1.0140845
+    paddingBottom: 0
+  - name: friendMarkerBackground.png
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 157
+      width: 146
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 157
+      width: 146
+      height: 20
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0
+    paddingBottom: 0
+  - name: magnet1.png
+    outer:
+      serializedVersion: 2
+      x: 511
+      y: 408
+      width: 92
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 511
+      y: 408
+      width: 92
+      height: 94
+    paddingLeft: 0.04347826
+    paddingRight: 0.04347826
+    paddingTop: 0.031914894
+    paddingBottom: 0.031914894
+  - name: magnet2.png
+    outer:
+      serializedVersion: 2
+      x: 505
+      y: 504
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 505
+      y: 504
+      width: 94
+      height: 94
+    paddingLeft: 0.031914894
+    paddingRight: 0.031914894
+    paddingTop: 0.031914894
+    paddingBottom: 0.031914894
+  - name: magnet3.png
+    outer:
+      serializedVersion: 2
+      x: 757
+      y: 417
+      width: 90
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 417
+      width: 90
+      height: 92
+    paddingLeft: 0.055555556
+    paddingRight: 0.055555556
+    paddingTop: 0.04347826
+    paddingBottom: 0.04347826
+  - name: magnet4.png
+    outer:
+      serializedVersion: 2
+      x: 665
+      y: 417
+      width: 90
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 665
+      y: 417
+      width: 90
+      height: 92
+    paddingLeft: 0.055555556
+    paddingRight: 0.055555556
+    paddingTop: 0.04347826
+    paddingBottom: 0.04347826
+  - name: magnet5.png
+    outer:
+      serializedVersion: 2
+      x: 671
+      y: 321
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 671
+      y: 321
+      width: 94
+      height: 94
+    paddingLeft: 0.031914894
+    paddingRight: 0.031914894
+    paddingTop: 0.031914894
+    paddingBottom: 0.031914894
+  - name: magnet6.png
+    outer:
+      serializedVersion: 2
+      x: 421
+      y: 610
+      width: 84
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 421
+      y: 610
+      width: 84
+      height: 86
+    paddingLeft: 0.0952381
+    paddingRight: 0.0952381
+    paddingTop: 0.08139535
+    paddingBottom: 0.08139535
+  - name: magnet7.png
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 408
+      width: 94
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 408
+      width: 94
+      height: 92
+    paddingLeft: 0.021276595
+    paddingRight: 0.04255319
+    paddingTop: 0.04347826
+    paddingBottom: 0.04347826
+  - name: magnet8.png
+    outer:
+      serializedVersion: 2
+      x: 320
+      y: 164
+      width: 94
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 320
+      y: 164
+      width: 94
+      height: 94
+    paddingLeft: 0.021276595
+    paddingRight: 0.04255319
+    paddingTop: 0.021276595
+    paddingBottom: 0.04255319
+  - name: pickupAngelWings1.png
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 80
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 80
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupAngelWings2.png
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 80
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 80
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupAngelWings3.png
+    outer:
+      serializedVersion: 2
+      x: 853
+      y: 2
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 853
+      y: 2
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupAngelWings4.png
+    outer:
+      serializedVersion: 2
+      x: 705
+      y: 2
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 2
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupAngelWings5.png
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 2
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 2
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupAngelWings6.png
+    outer:
+      serializedVersion: 2
+      x: 409
+      y: 2
+      width: 146
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 409
+      y: 2
+      width: 146
+      height: 76
+    paddingLeft: 0.047945205
+    paddingRight: 0.047945205
+    paddingTop: 0.05263158
+    paddingBottom: 0.05263158
+  - name: pickupBoost.png
+    outer:
+      serializedVersion: 2
+      x: 164
+      y: 2
+      width: 160
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 164
+      y: 2
+      width: 160
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pickupCoinBonus.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 164
+      width: 160
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 164
+      width: 160
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pickupEffect1.png
+    outer:
+      serializedVersion: 2
+      x: 416
+      y: 698
+      width: 78
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 416
+      y: 698
+      width: 78
+      height: 86
+    paddingLeft: 0.21794872
+    paddingRight: 0.06410257
+    paddingTop: 0.1627907
+    paddingBottom: 0
+  - name: pickupEffect2.png
+    outer:
+      serializedVersion: 2
+      x: 851
+      y: 568
+      width: 88
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 851
+      y: 568
+      width: 88
+      height: 86
+    paddingLeft: 0.09090909
+    paddingRight: 0.045454547
+    paddingTop: 0.1627907
+    paddingBottom: 0
+  - name: pickupEffect3.png
+    outer:
+      serializedVersion: 2
+      x: 507
+      y: 600
+      width: 90
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 507
+      y: 600
+      width: 90
+      height: 94
+    paddingLeft: 0.07777778
+    paddingRight: 0.033333335
+    paddingTop: 0.06382979
+    paddingBottom: 0
+  - name: pickupEffect4.png
+    outer:
+      serializedVersion: 2
+      x: 761
+      y: 511
+      width: 88
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 761
+      y: 511
+      width: 88
+      height: 96
+    paddingLeft: 0.09090909
+    paddingRight: 0.045454547
+    paddingTop: 0.041666668
+    paddingBottom: 0
+  - name: pickupEffect5.png
+    outer:
+      serializedVersion: 2
+      x: 851
+      y: 470
+      width: 86
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 851
+      y: 470
+      width: 86
+      height: 96
+    paddingLeft: 0.093023255
+    paddingRight: 0.069767445
+    paddingTop: 0.041666668
+    paddingBottom: 0
+  - name: pickupEffect6.png
+    outer:
+      serializedVersion: 2
+      x: 939
+      y: 442
+      width: 82
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 939
+      y: 442
+      width: 82
+      height: 94
+    paddingLeft: 0.12195122
+    paddingRight: 0.09756097
+    paddingTop: 0.04255319
+    paddingBottom: 0.021276595
+  - name: pickupEffect7.png
+    outer:
+      serializedVersion: 2
+      x: 339
+      y: 435
+      width: 74
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 339
+      y: 435
+      width: 74
+      height: 88
+    paddingLeft: 0.21621622
+    paddingRight: 0.13513513
+    paddingTop: 0.06818182
+    paddingBottom: 0.06818182
+  - name: pickupEffect8.png
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 538
+      width: 80
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 538
+      width: 80
+      height: 90
+    paddingLeft: 0.1375
+    paddingRight: 0.1125
+    paddingTop: 0.06666667
+    paddingBottom: 0.044444446
+  - name: pickupInvincibility.png
+    outer:
+      serializedVersion: 2
+      x: 164
+      y: 164
+      width: 154
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 164
+      y: 164
+      width: 154
+      height: 160
+    paddingLeft: 0.019480519
+    paddingRight: 0.019480519
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pickupVacuum.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 160
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 160
+      height: 160
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet1.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 568
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 568
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet2.png
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 326
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 326
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet3.png
+    outer:
+      serializedVersion: 2
+      x: 84
+      y: 568
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 568
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet4.png
+    outer:
+      serializedVersion: 2
+      x: 84
+      y: 326
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 84
+      y: 326
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet5.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 568
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 568
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: safetyNet6.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 326
+      width: 80
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 326
+      width: 80
+      height: 240
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shadowSpot.png
+    outer:
+      serializedVersion: 2
+      x: 605
+      y: 406
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 605
+      y: 406
+      width: 58
+      height: 58
+    paddingLeft: 0.05172414
+    paddingRight: 0.05172414
+    paddingTop: 0.05172414
+    paddingBottom: 0.05172414
+  - name: sparkle1.png
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 810
+      width: 89
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 810
+      width: 89
+      height: 179
+    paddingLeft: 0.28089887
+    paddingRight: 0.66292137
+    paddingTop: 0.11173184
+    paddingBottom: 0.46927375
+  - name: sparkle10.png
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 644
+      width: 81
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 644
+      width: 81
+      height: 125
+    paddingLeft: 0.27160493
+    paddingRight: 0.86419755
+    paddingTop: 0.568
+    paddingBottom: 0.696
+  - name: sparkle11.png
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 771
+      width: 75
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 771
+      width: 75
+      height: 119
+    paddingLeft: 0.34666666
+    paddingRight: 0.96
+    paddingTop: 0.5126051
+    paddingBottom: 0.8655462
+  - name: sparkle12.png
+    outer:
+      serializedVersion: 2
+      x: 190
+      y: 810
+      width: 63
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 190
+      y: 810
+      width: 63
+      height: 137
+    paddingLeft: 0.3968254
+    paddingRight: 1.3492063
+    paddingTop: 0.26277372
+    paddingBottom: 0.8029197
+  - name: sparkle2.png
+    outer:
+      serializedVersion: 2
+      x: 248
+      y: 326
+      width: 81
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 248
+      y: 326
+      width: 81
+      height: 181
+    paddingLeft: 0.3580247
+    paddingRight: 0.7777778
+    paddingTop: 0.016574586
+    paddingBottom: 0.5469613
+  - name: sparkle3.png
+    outer:
+      serializedVersion: 2
+      x: 320
+      y: 260
+      width: 83
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 320
+      y: 260
+      width: 83
+      height: 63
+    paddingLeft: 0.3253012
+    paddingRight: 0.7590361
+    paddingTop: 1.7619047
+    paddingBottom: 1.7301587
+  - name: sparkle4.png
+    outer:
+      serializedVersion: 2
+      x: 93
+      y: 810
+      width: 95
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 93
+      y: 810
+      width: 95
+      height: 169
+    paddingLeft: 0.15789473
+    paddingRight: 0.6631579
+    paddingTop: 0.5976331
+    paddingBottom: 0.07692308
+  - name: sparkle5.png
+    outer:
+      serializedVersion: 2
+      x: 326
+      y: 2
+      width: 81
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 2
+      width: 81
+      height: 147
+    paddingLeft: 0.2962963
+    paddingRight: 0.83950615
+    paddingTop: 0.6394558
+    paddingBottom: 0.2857143
+  - name: sparkle6.png
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 892
+      width: 85
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 892
+      width: 85
+      height: 115
+    paddingLeft: 0.27058825
+    paddingRight: 0.7647059
+    paddingTop: 0.93043476
+    paddingBottom: 0.5304348
+  - name: sparkle7.png
+    outer:
+      serializedVersion: 2
+      x: 248
+      y: 509
+      width: 89
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 248
+      y: 509
+      width: 89
+      height: 133
+    paddingLeft: 0.20224719
+    paddingRight: 0.74157304
+    paddingTop: 0.7293233
+    paddingBottom: 0.39849624
+  - name: sparkle8.png
+    outer:
+      serializedVersion: 2
+      x: 255
+      y: 773
+      width: 81
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 255
+      y: 773
+      width: 81
+      height: 125
+    paddingLeft: 0.27160493
+    paddingRight: 0.86419755
+    paddingTop: 0.728
+    paddingBottom: 0.536
+  - name: sparkle9.png
+    outer:
+      serializedVersion: 2
+      x: 248
+      y: 644
+      width: 83
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 248
+      y: 644
+      width: 83
+      height: 127
+    paddingLeft: 0.26506025
+    paddingRight: 0.8192771
+    paddingTop: 0.62204725
+    paddingBottom: 0.6062992
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
