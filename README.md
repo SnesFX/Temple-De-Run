@@ -10,7 +10,7 @@
 
 * [Unity Hub](https://unity.com/download)
 
-* [Unity 2017.4.2f2]
+* Unity 2017.4.2f2
 
 * [Visual Studio Code](https://code.visualstudio.com)
 
