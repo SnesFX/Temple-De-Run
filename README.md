@@ -16,6 +16,6 @@
 
 # Credits
 
-* [SnesFX/TyDev](https://twitter.com/SnesFX) - The decompilation
+* [SnesFX](https://twitter.com/SnesFX) - The decompilation
 
 * Imangi Team - They own Temple Run
