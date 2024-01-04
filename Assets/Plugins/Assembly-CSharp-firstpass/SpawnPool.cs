@@ -211,6 +211,7 @@ public sealed class SpawnPool : MonoBehaviour, IList<Transform>, ICollection<Tra
 		return Spawn(prefab, Vector3.zero, Quaternion.identity);
 	}
 
+	/*
 	public ParticleEmitter Spawn(ParticleEmitter prefab, Vector3 pos, Quaternion quat)
 	{
 		Transform transform = Spawn(prefab.transform, pos, quat);
@@ -247,6 +248,7 @@ public sealed class SpawnPool : MonoBehaviour, IList<Transform>, ICollection<Tra
 		StartCoroutine(ListenForEmitDespawn(component2));
 		return component2;
 	}
+	*/
 
 	public void Despawn(Transform xform)
 	{
@@ -331,6 +333,7 @@ public sealed class SpawnPool : MonoBehaviour, IList<Transform>, ICollection<Tra
 		return null;
 	}
 
+	/*
 	private IEnumerator ListenForEmitDespawn(ParticleEmitter emitter)
 	{
 		yield return null;
@@ -349,6 +352,7 @@ public sealed class SpawnPool : MonoBehaviour, IList<Transform>, ICollection<Tra
 		Despawn(emitter.transform);
 		yield return null;
 	}
+	*/
 
 	public bool Contains(Transform item)
 	{

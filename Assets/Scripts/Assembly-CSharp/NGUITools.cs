@@ -383,7 +383,7 @@ public static class NGUITools
 	{
 		t.gameObject.active = true;
 		int i = 0;
-		for (int childCount = t.GetChildCount(); i < childCount; i++)
+		for (int childCount = t.childCount; i < childCount; i++)
 		{
 			Transform child = t.GetChild(i);
 			Activate(child);
@@ -393,7 +393,7 @@ public static class NGUITools
 	private static void Deactivate(Transform t)
 	{
 		int i = 0;
-		for (int childCount = t.GetChildCount(); i < childCount; i++)
+		for (int childCount = t.childCount; i < childCount; i++)
 		{
 			Transform child = t.GetChild(i);
 			Deactivate(child);
